@@ -24,13 +24,13 @@
   - zawiera wszystkie informacje dotyczące rezerwacji
   - umożliwia edycję i zapisanie zmian
 
-- `/tables/booking/:new`
+- `/tables/booking/new`
   - analogicznie do powyższej, bez początkowych informacji
 
 - `/tables/events/:id`
  - analogicznie do powyższej, dla eventów
 
-- `/tables/events/:new`
+- `/tables/events/new`
  - analogicznie do powyższej, dla eventów, bez początkowych informacji
 
 # Widok kelnera
@@ -48,7 +48,7 @@
   - zamówienie (zamówione produkty z opcjami i ceną)
   - kwotę zamówienia
 
-- `/waiter/order/new:id`
+- `/waiter/order/:id`
   - jak powyższa
 
 # Widok kuchni
