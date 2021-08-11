@@ -6,13 +6,12 @@ import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 import FormControl from '@material-ui/core/FormControl';
 
-
 const Login = () => {
 
   return (
     <div className={styles.component}>
       <Container maxWidth='sm'>
-        <FormControl>
+        <FormControl fullWidth>
           <Typography component='h1' variant='h4' align='center'>
           Sign in
           </Typography>
